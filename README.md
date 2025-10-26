@@ -26,7 +26,16 @@ A full-stack system for handling webhook subscriptions, event relay, and deliver
   - Inline editing and deletion of webhooks.
 
 ---
+# Deployed Links
+# frontend:https://algohire-bru9.vercel.app/
+# backend:https://algohire.onrender.com
+# Folder structurs
+---
+<img width="197" height="518" alt="image" src="https://github.com/user-attachments/assets/233ffe37-ac77-44fb-bf80-3221b5d0e327" />
+<img width="182" height="738" alt="image" src="https://github.com/user-attachments/assets/e941f258-f4fe-4a19-ae7a-b9b54cb45f84" />
 
+
+---
 ## Architecture
 Internal Modules (Jobs, Candidates, Interviews, Assessments)
 |
