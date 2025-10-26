@@ -8,6 +8,11 @@ import clientsRouter from "./routes/clients.js";
 
 dotenv.config();
 const app = express();
+app.use(cors({
+  origin: "http://localhost:3000", // frontend dev
+  methods: ["GET","POST","PUT","DELETE","OPTIONS"],
+  credentials: true, // if you use cookies
+}));
 
 app.use(cors());
 app.use(express.json());
